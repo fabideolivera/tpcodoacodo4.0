@@ -30,6 +30,7 @@ body {
 
 .conteiner1 > div,
 .conteiner1 .header,
+.conteiner1 .header-cont,
 .conteiner1 .navegacionbar,
 .conteiner1 .logon,
 .conteiner1 .contenido,
@@ -41,6 +42,12 @@ body {
 }
 
 .conteiner1 .header {
+	background: #020c22;
+	color: #fff;
+	grid-area: header;
+}
+
+.conteiner1 .header-cont {
 	background: #020c22;
 	color: #fff;
 	grid-area: header;
@@ -322,7 +329,9 @@ body {
 		grid-template-areas: "header header header"
                          "navegacionbar navegacionbar navegacionbar"
 							"logon logon logon"
+							"logon-cont logon-cont logon-cont"
 						 "contenido contenido contenido"
+						 "contenido-cont contenido-cont contenido-cont"
 						 "sidebar sidebar sidebar"
 						 "widget-1 widget-1 widget-1"
 						 "widget-2 widget-2 widget-2"
@@ -351,4 +360,3 @@ body {
 	justify-content: center;
 }
 }
-
